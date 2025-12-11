@@ -113,6 +113,18 @@ public struct TFCategory : Swift.Sendable, Swift.Equatable {
 }
 public struct SequreRepositorySDK : Swift.Sendable {
 }
+extension AVFoundation.AVCaptureSession : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureDeviceInput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCapturePhotoOutput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureVideoDataOutput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureDevice : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureConnection : @unchecked @retroactive Swift.Sendable {
+}
 public enum DistanceResult : Swift.Sendable {
   case tooClose
   case tooFar
