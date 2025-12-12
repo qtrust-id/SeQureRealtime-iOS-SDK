@@ -5089,16 +5089,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SequreRealtimeSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -8009,41 +7999,41 @@
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 176,
-      "length": 78,
-      "value": "\"https:\/\/sequrepro-prod-362191430784.asia-southeast2.run.app\/image_validation\""
+      "length": 96,
+      "value": "\"https:\/\/demo-staging-validation-362191430784.asia-southeast2.run.app\/copyproof_demo_validation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 301,
-      "length": 91,
-      "value": "\"https:\/\/qtrustaiteam-update-staging-362191430784.asia-southeast2.run.app\/image_validation\""
+      "offset": 319,
+      "length": 96,
+      "value": "\"https:\/\/demo-staging-validation-362191430784.asia-southeast2.run.app\/copyproof_demo_validation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 460,
       "length": 42,
       "value": "\"https:\/\/mobile.sequre.id\/v3\/sdk\/validate\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 547,
       "length": 43,
       "value": "\"https:\/\/smobile.sequre.id\/v3\/sdk\/validate\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 633,
       "length": 42,
       "value": "\"https:\/\/mobile.sequre.id\/v3\/check-device\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 695,
+      "offset": 718,
       "length": 43,
       "value": "\"https:\/\/smobile.sequre.id\/v3\/check-device\""
     },
@@ -8557,13 +8547,6 @@
       "offset": 670,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Utils\/Functions\/BarcodeHelper.swift",
-      "kind": "Array",
-      "offset": 470,
-      "length": 31,
-      "value": "[\"qtru.st\", \"qtr.pw\", \"ahm.to\"]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/SequreRealtimeSDK\/SequreRealtimeSDK\/Utils\/Functions\/BundleReference.swift",
