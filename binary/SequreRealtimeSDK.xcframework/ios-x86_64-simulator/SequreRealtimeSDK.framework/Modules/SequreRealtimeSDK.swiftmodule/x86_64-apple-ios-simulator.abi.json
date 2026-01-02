@@ -4288,43 +4288,6 @@
           },
           {
             "kind": "Var",
-            "name": "noInternetConnection",
-            "printedName": "noInternetConnection",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SequreRealtimeSDK.SDKNetworkError.Type) -> SequreRealtimeSDK.SDKNetworkError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKNetworkError",
-                    "printedName": "SequreRealtimeSDK.SDKNetworkError",
-                    "usr": "s:17SequreRealtimeSDK15SDKNetworkErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SequreRealtimeSDK.SDKNetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKNetworkError",
-                        "printedName": "SequreRealtimeSDK.SDKNetworkError",
-                        "usr": "s:17SequreRealtimeSDK15SDKNetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:17SequreRealtimeSDK15SDKNetworkErrorO20noInternetConnectionyA2CmF",
-            "mangledName": "$s17SequreRealtimeSDK15SDKNetworkErrorO20noInternetConnectionyA2CmF",
-            "moduleName": "SequreRealtimeSDK"
-          },
-          {
-            "kind": "Var",
             "name": "timeout",
             "printedName": "timeout",
             "children": [

@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z7D9LtuWIddK1rEHDfimdAuV7IE=
+		lur8+w1+Upno8H5q3OLujTpOk0I=
 		</data>
 		<key>Inter-Bold.otf</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1TKUf+fWo4wMPPnctjCojrTi3MU=
+		KHXJxfoIuI3qBd9oKK6QJID3YAc=
 		</data>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xmjH9Jrb+/niG6EWXPU4e6CvyNs=
+		Nb35xjFTDzAre+iIJ519hN++Lk8=
 		</data>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xmjH9Jrb+/niG6EWXPU4e6CvyNs=
+		Nb35xjFTDzAre+iIJ519hN++Lk8=
 		</data>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/rQt2RWboQ6AmQPZAIptQOqAxkA=
+		IdFlH5CM8XV1bycaAiWySAoKgDQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			53Kul0+A70gn65q78bXK2fGmIDiqEEcnVd1CpyjxkuU=
+			MhRGIRh9Lihg0jyzAz2HJ5NDpcz3m38NEJ+ZTe3a87Q=
 			</data>
 		</dict>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gMnBllDt61jZ6TzSvFESVREdaSKKXkQeTRG6fOq5eU=
+			e7v2q78R+qw7jcURLL+M1ASkQfhDjA4vmeAmRsOS06U=
 			</data>
 		</dict>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gMnBllDt61jZ6TzSvFESVREdaSKKXkQeTRG6fOq5eU=
+			e7v2q78R+qw7jcURLL+M1ASkQfhDjA4vmeAmRsOS06U=
 			</data>
 		</dict>
 		<key>Modules/SequreRealtimeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qqf1AMIxVgJxM8hxtqoXsMcnj6NpQmVfDW7xo+XTOg4=
+			ffQ7CSVOW7WZ3b8Qi/Qzx1TCJuOToKJbpcZlG8A3WMk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
