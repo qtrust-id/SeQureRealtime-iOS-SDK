@@ -11,7 +11,6 @@ let package = Package(
     products: [
         .library(
             name: "QtrustSequreRealtimeSDK",
-            // targets: ["SequreRealtimeSDK", "SequreRealtimeSDKResources"]
             targets: ["SequreRealtimeSDK"]
         )
     ],
@@ -20,15 +19,6 @@ let package = Package(
             name: "SequreRealtimeSDK",
             path: "binary/SequreRealtimeSDK.xcframework"
         ),
-        // Minimal target just to bundle resources
-        // .target(
-        //     name: "SequreRealtimeSDKResources",
-        //     dependencies: [],
-        //     path: "Sources/SequreRealtimeSDKResources",
-        //     resources: [
-        //         .process("Resources")
-        //     ]
-        // )
     ],
     swiftLanguageVersions: [.v5, .version("6.0")]
 )
