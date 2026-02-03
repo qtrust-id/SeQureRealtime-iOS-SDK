@@ -16,14 +16,14 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/dewangga18/qtrust_sequre_realtime_sdk.git", from: "1.1.0") // initial release for spm
+    .package(url: "https://rep.qtrust.id/qtrust-public/SequreRealtimeSDK.git", from: "1.0.0")
 ]
 ```
 
 Or in Xcode:
 
 1. Go to **File** → **Add Package Dependencies...**
-2. Enter the repository URL: `https://github.com/dewangga18/qtrust_sequre_realtime_sdk.git`
+2. Enter the repository URL: `https://rep.qtrust.id/qtrust-public/SequreRealtimeSDK.git`
 3. Select the version you want to use
 4. Click **Add Package**
 
@@ -32,7 +32,7 @@ Or in Xcode:
 Add the following to your `Podfile`:
 
 ```ruby
-pod 'QtrustSequreRealtimeSDK'
+pod 'SequreRealtimeSDK'
 ```
 
 Then run:

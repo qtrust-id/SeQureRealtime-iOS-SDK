@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "QtrustSequreRealtimeSDK",
+    name: "SequreRealtimeSDK",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "QtrustSequreRealtimeSDK",
+            name: "SequreRealtimeSDK",
             targets: ["SequreRealtimeSDK"]
         )
     ],
