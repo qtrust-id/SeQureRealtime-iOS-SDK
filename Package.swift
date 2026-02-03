@@ -20,5 +20,4 @@ let package = Package(
             path: "binary/SequreRealtimeSDK.xcframework"
         ),
     ],
-    swiftLanguageVersions: [.v5, .version("6.0")]
 )
