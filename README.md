@@ -29,11 +29,27 @@ Import the SDK in your Swift files:
 import SequreRealtimeSDK
 ```
 
-## License
+## Network Configuration
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+You can customize the `URLSessionConfiguration` used by the SDK:
+
+```swift
+// Make sure call in init function
+init() {
+    Task {
+        // recommended 
+        await NetworkServiceSDK.shared.configure(
+            with: [<ClassLogger.self>] 
+        )
+
+        // alternative
+        await NetworkServiceSDK.shared.setSessionConfiguration { config in
+            // Configure your URLSessionConfiguration here
+        }
+    }
+}
+```
 
 ## Email Support
 
-contact@qtrust.id
-aaronevanjulio@venturo.pro
+📧 contact@qtrust.id 

@@ -1,6 +1,0 @@
-framework module SequreRealtimeSDK {
-  umbrella header "SequreRealtimeSDK.h"
-  export *
-
-  module * { export * }
-}
