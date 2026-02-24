@@ -5,9 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SequreRealtimeSDK",
-    platforms: [
-        .iOS(.v15)
-    ],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "SequreRealtimeSDK",
@@ -17,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SequreRealtimeSDK",
-            url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK/releases/download/1.0.1/SequreRealtimeSDK.xcframework.zip",
-            checksum: "ce077fc1b4b43f39e573928dc1d9476d5c21ddffec5db75ad65b361f3b43957d"
+            url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK/releases/download/1.0.2/SequreRealtimeSDK.xcframework.zip",
+            checksum: "185db910f42242f426e953b839d623815c0950a422db4864aaf21e056ede54cc"
         ),
     ],
 )
