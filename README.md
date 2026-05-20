@@ -10,7 +10,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "2.0.0")
+    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "2.0.1")
 ]
 ```
 
@@ -27,6 +27,29 @@ Import the SDK in your Swift files:
 
 ```swift
 import SequreRealtimeSDK
+```
+
+Prepare the required credentials:
+
+```swift
+// A unique number used for bundle ID authentication.
+// This value will be provided after registering your app with Qtrust.
+// Please contact the Qtrust admin (qtrust.id) for further registration.
+let uniqueNumber: Int
+```
+
+Initialize the SDK when the app starts (for example, in AppDelegate or @main App):
+
+```swift
+SequreSDKInstance.shared.initialize(
+    // Required credentials.
+    // Both `uniqueNumber` and `bundleID` must be registered with Qtrust beforehand.
+    // Please contact the Qtrust admin (qtrust.id) for registration assistance.
+    uniqueNumber: uniqueNumber,
+
+    // Use .stag for development and .prod for production
+    flavor: AppEnvironment.isLive ? .prod : .stag
+)
 ```
 
 ## Network Configuration
