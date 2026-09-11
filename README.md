@@ -3,7 +3,7 @@
 SequreRealtimeSDK is the official plugin from Qtrust, used to verify the authenticity of products issued by Qtrust's clients. This SDK utilizes realtime scanning of QR codes.
 
 > [!NOTE]
-> **Beta release** — this version (`3.0.0-beta.2`) ships ahead of the stable release. APIs may still change.
+> **Beta release** — this version (`3.0.0-beta.7`) ships ahead of the stable release. APIs may still change.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.0.0-beta.6")
+    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.0.0-beta.7")
 ]
 ```
 
