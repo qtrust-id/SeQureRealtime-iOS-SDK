@@ -10,7 +10,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.0.0")
+    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.0.1-beta.1")
 ]
 ```
 
@@ -60,9 +60,9 @@ You can customize the `URLSessionConfiguration` used by the SDK:
 // Make sure call in init function
 init() {
     Task {
-        // recommended 
+        // recommended
         await NetworkServiceSDK.shared.configure(
-            with: [<ClassLogger.self>] 
+            with: [<ClassLogger.self>]
         )
 
         // alternative
@@ -75,4 +75,4 @@ init() {
 
 ## Email Support
 
-📧 contact@qtrust.id 
+📧 contact@qtrust.id
