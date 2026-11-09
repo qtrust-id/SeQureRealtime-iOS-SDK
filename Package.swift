@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SequreRealtimeSDK",
-            url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK/releases/download/3.1.1/SequreRealtimeSDK.xcframework.zip",
-            checksum: "7bc271d9a9ed35cc71db91e9638668f08d83b8d731e7db9312acec6192a6563c"
+            url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK/releases/download/3.1.2/SequreRealtimeSDK.xcframework.zip",
+            checksum: "a510245b3d1a8321b3a655338489e9f4d4727b24b47100a19179e6aa40a50a36"
         ),
     ],
 )
