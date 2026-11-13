@@ -10,7 +10,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.1.3")
+    .package(url: "https://github.com/qtrust-id/SeQureRealtime-iOS-SDK", from: "3.1.4")
 ]
 ```
 
@@ -36,6 +36,10 @@ Prepare the required credentials:
 // This value will be provided after registering your app with Qtrust.
 // Please contact the Qtrust admin (qtrust.id) for further registration.
 let uniqueNumber: Int
+
+// Bearer token used for authenticating image validation requests.
+// Provided by Qtrust for your application environment (staging/production).
+let bearerToken: String?
 ```
 
 Initialize the SDK when the app starts (for example, in AppDelegate or @main App):
@@ -48,7 +52,10 @@ SequreSDKInstance.shared.initialize(
     uniqueNumber: uniqueNumber,
 
     // Use .stag for development and .prod for production
-    flavor: AppEnvironment.isLive ? .prod : .stag
+    flavor: AppEnvironment.isLive ? .prod : .stag,
+
+    // Optional Bearer token for image validation authentication
+    bearerToken: bearerToken
 )
 ```
 
